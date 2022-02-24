@@ -1,0 +1,19 @@
+{
+  "chromeWebSecurity": false,
+  "pageLoadTimeout": 120000,
+  "baseUrl": "https://demo.apps.idocket.com/demo_quartz_dc/",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "repotDir": "cypress/reports",
+    "reportFileName": "testresults",
+    "overwrite": true,
+    "html": true,
+    "json": true,
+    "charts": true
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "projectId": "4ntobk"
+}

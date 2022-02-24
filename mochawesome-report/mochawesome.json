@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-23T17:32:48.738Z",
+    "end": "2022-02-23T17:32:49.776Z",
+    "duration": 1038,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9acfa67b-493e-42e6-85af-f318ed8480ae",
+      "title": "",
+      "fullFile": "cypress/integration/test/specs/TC01_firsttest.spec.js",
+      "file": "cypress/integration/test/specs/TC01_firsttest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f8dcfe40-2528-4635-a271-42c3491c6deb",
+          "title": "Check the Page Navigation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify page title",
+              "fullTitle": "Check the Page Navigation Verify page title",
+              "timedOut": null,
+              "duration": 1025,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://demo.apps.idocket.com/demo_quartz_dc/login.jsp');\ncy.url().should('include', 'login.jsp');\ncy.get('div.login-style > .login-style').type('idocket');\ncy.get('td > input').type('$idocket2022$'); //cy.get('#login_button').click();\ncy.get('td div .login-style').then(label => {\n  cy.log(label.text());\n}); //cy.get('a').contains('Work From').click()\n//cy.get('a').its('length').then((links)=>{\n//    cy.log(links).drag\n// })",
+              "err": {},
+              "uuid": "c513f5a4-6d6d-4ec4-beb1-8eed64596bcd",
+              "parentUUID": "f8dcfe40-2528-4635-a271-42c3491c6deb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c513f5a4-6d6d-4ec4-beb1-8eed64596bcd"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1025,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "repotDir": "cypress/reports",
+        "reportFileName": "testresults",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

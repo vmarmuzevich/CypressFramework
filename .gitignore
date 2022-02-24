@@ -1,0 +1,8 @@
+node_modules
+cypress/videos
+test-results
+report
+package-lock.json
+cucumber-json
+yarn.lock
+/cypress/screenshots/
