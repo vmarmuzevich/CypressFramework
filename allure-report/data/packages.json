@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "search case",
+    "children" : [ {
+      "name" : "search",
+      "uid" : "a0efa441638c2d50",
+      "parentUid" : "8d6b0841d00bd504b77fd9e0021eda65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645705941385,
+        "stop" : 1645705944189,
+        "duration" : 2804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8d6b0841d00bd504b77fd9e0021eda65"
+  }, {
+    "name" : "Check the Page Navigation",
+    "children" : [ {
+      "name" : "Verify page title",
+      "uid" : "bb101125de689861",
+      "parentUid" : "d242fca31a8ba18a07957639746c51b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645705948440,
+        "stop" : 1645705949504,
+        "duration" : 1064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d242fca31a8ba18a07957639746c51b0"
+  } ]
+}

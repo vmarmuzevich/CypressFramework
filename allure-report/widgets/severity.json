@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a0efa441638c2d50",
+  "name" : "search",
+  "time" : {
+    "start" : 1645705941385,
+    "stop" : 1645705944189,
+    "duration" : 2804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb101125de689861",
+  "name" : "Verify page title",
+  "time" : {
+    "start" : 1645705948440,
+    "stop" : 1645705949504,
+    "duration" : 1064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

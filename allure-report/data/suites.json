@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "search case",
+    "children" : [ {
+      "name" : "search",
+      "uid" : "a0efa441638c2d50",
+      "parentUid" : "542e8b4898718e316ea182bf1f32b687",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645705941385,
+        "stop" : 1645705944189,
+        "duration" : 2804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "542e8b4898718e316ea182bf1f32b687"
+  }, {
+    "name" : "Check the Page Navigation",
+    "children" : [ {
+      "name" : "Verify page title",
+      "uid" : "bb101125de689861",
+      "parentUid" : "11e7d2fa0aee67d73b002e4577273a2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645705948440,
+        "stop" : 1645705949504,
+        "duration" : 1064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "11e7d2fa0aee67d73b002e4577273a2b"
+  } ]
+}

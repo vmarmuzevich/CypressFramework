@@ -1,0 +1,50 @@
+{
+  "uid" : "bb101125de689861",
+  "name" : "Verify page title",
+  "fullName" : "Check the Page Navigation.Verify page title",
+  "historyId" : "76773262ab281bd26569666aa7d6ecec",
+  "time" : {
+    "start" : 1645705948440,
+    "stop" : 1645705949504,
+    "duration" : 1064
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check the Page Navigation"
+  }, {
+    "name" : "testClass",
+    "value" : "Check the Page Navigation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify page title"
+  }, {
+    "name" : "package",
+    "value" : "Check the Page Navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb101125de689861.json",
+  "parameterValues" : [ ]
+}
