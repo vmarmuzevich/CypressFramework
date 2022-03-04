@@ -4,7 +4,7 @@ import BasePage from "./basePage"
 class LoginPage extends BasePage {
 
 static usernameField() {
-    return cy.get('div.login-style > .login-style')
+    return cy.get('#login')
 } 
 
 static baseurl = ("/")
@@ -17,15 +17,15 @@ static errorMessage() {
 
 static open() {
     cy.log("Base URL = "+this.baseurl)
-    super.open(this.baseurl, 'login.jsp')
+    super.open(this.baseurl, null)
 }
 
 static passworField() {
-    return cy.get('td > input')
+    return cy.get('#password')
 }
 
 static loginButton() {
-    return cy.get('#login_button')
+    return cy.get('.button')
 }
 
 static clickLoginButton(){
@@ -36,6 +36,17 @@ static login(username, password){
     super.setText(this.usernameField(),username)
     super.setText(this.passworField(),password)
 }
+
+static setUsername(username){
+    super.setText(this.usernameField(),username)
+}
+
+static setPassword(password){
+    super.setText(this.passworField(),password)
+}
+
+
+
 
 }
 

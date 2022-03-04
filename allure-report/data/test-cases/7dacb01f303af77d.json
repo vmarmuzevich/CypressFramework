@@ -1,12 +1,12 @@
 {
-  "uid" : "a0efa441638c2d50",
-  "name" : "search",
-  "fullName" : "search case.search",
-  "historyId" : "328b01047d6b48c73fe1f3b5a7217cb",
+  "uid" : "7dacb01f303af77d",
+  "name" : "Verify page title",
+  "fullName" : "Check the Page Navigation.Verify page title",
+  "historyId" : "76773262ab281bd26569666aa7d6ecec",
   "time" : {
-    "start" : 1645705941385,
-    "stop" : 1645705944189,
-    "duration" : 2804
+    "start" : 1645705948440,
+    "stop" : 1645705949504,
+    "duration" : 1064
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,16 +21,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "search case"
+    "value" : "Check the Page Navigation"
   }, {
     "name" : "testClass",
-    "value" : "search case"
+    "value" : "Check the Page Navigation"
   }, {
     "name" : "testMethod",
-    "value" : "search"
+    "value" : "Verify page title"
   }, {
     "name" : "package",
-    "value" : "search case"
+    "value" : "Check the Page Navigation"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a0efa441638c2d50.json",
+  "source" : "7dacb01f303af77d.json",
   "parameterValues" : [ ]
 }

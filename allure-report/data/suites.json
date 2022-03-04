@@ -5,7 +5,7 @@
     "name" : "search case",
     "children" : [ {
       "name" : "search",
-      "uid" : "a0efa441638c2d50",
+      "uid" : "675ddd0d95b7b058",
       "parentUid" : "542e8b4898718e316ea182bf1f32b687",
       "status" : "passed",
       "time" : {
@@ -26,7 +26,7 @@
     "name" : "Check the Page Navigation",
     "children" : [ {
       "name" : "Verify page title",
-      "uid" : "bb101125de689861",
+      "uid" : "7dacb01f303af77d",
       "parentUid" : "11e7d2fa0aee67d73b002e4577273a2b",
       "status" : "passed",
       "time" : {

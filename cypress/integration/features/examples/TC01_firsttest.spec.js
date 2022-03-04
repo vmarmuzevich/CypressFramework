@@ -1,9 +1,14 @@
 /// <reference types="cypress" />
 
+import LoginPage from "../../../pageobjects/loginPage"
+
 //const allure = Cypress.Allure.reporter.getInterface();
 describe('Check the Page Navigation', () => {
 
     it('Verify page title', ()=>{
+        LoginPage.open();
+        LoginPage.login(login,password)
+
         cy.visit('https://demo.apps.idocket.com/demo_quartz_dc/login.jsp');
         cy.url().should('include', 'login.jsp');
         cy.get('div.login-style > .login-style').type('idocket');

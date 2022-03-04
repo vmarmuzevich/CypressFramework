@@ -1,11 +1,6 @@
 import LoginPage from "../../../pageobjects/loginPage"
 
 
-
-
-
-
-
 describe('search case', ()=>{
 
     before(() =>{

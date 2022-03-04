@@ -1,7 +1,9 @@
 {
   "chromeWebSecurity": false,
   "pageLoadTimeout": 120000,
-  "baseUrl": "https://demo.apps.idocket.com/demo_quartz_dc",
+  "baseUrl": "http://sonarqube-elb-dev-322592263.us-east-1.elb.amazonaws.com:8081",
+  "testFiles": "**/*.feature",
+
   
   "reporterOptions": {
     "repotDir": "cypress/reports",
