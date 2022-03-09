@@ -3,8 +3,6 @@
   "pageLoadTimeout": 120000,
   "baseUrl": "http://sonarqube-elb-dev-322592263.us-east-1.elb.amazonaws.com:8081",
   "testFiles": "**/*.feature",
-
-  
   "reporterOptions": {
     "repotDir": "cypress/reports",
     "reportFileName": "testresults",
@@ -16,6 +14,6 @@
   "retries": {
     "runMode": 2,
     "openMode": 0
-  }
+  },
+  "projectId": "kt4kzj"
 }
-

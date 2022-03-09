@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cy:headless": "cypress run --browser chrome --headless",
-    "run:reports": "node report.js",
-    "delete:reports": "del report/features/*.html",
+    "cy:run": "cypress run",
+    "cy:run chrome": "cypress run --browser chrome --headless",
+    "report": "node report.js",
     "test-allure": "cypress run --browser chrome --headless --reporter mocha-allure-reporter",
     "allure": "allure generate --clean allure-results && allure open",
     "finaltest": "npm run test-allure && npm run allure",
