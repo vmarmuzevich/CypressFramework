@@ -8,10 +8,10 @@
     "cy:run": "cypress run",
     "cy:run chrome": "cypress run --browser chrome --headless",
     "report": "node report.js",
-    "test-allure": "cypress run --browser chrome --headless --reporter mocha-allure-reporter",
-    "allure": "allure generate --clean allure-results && allure open",
-    "finaltest": "npm run test-allure && npm run allure",
-    "allure open": "allure open"
+    "allure test": "cypress run --browser chrome --headless --reporter mocha-allure-reporter",
+    "allure open": "allure open",
+    "allure": "allure generate --clean allure-results && allure open"
+    
   },
   "author": "iDocket",
   "license": "ISC",
@@ -37,7 +37,8 @@
     "typescript": "^4.5.5"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/stepDefinitions/",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",
