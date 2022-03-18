@@ -5,7 +5,7 @@
     "name" : "search case",
     "children" : [ {
       "name" : "search",
-      "uid" : "675ddd0d95b7b058",
+      "uid" : "c5c5fefd42457b8",
       "parentUid" : "542e8b4898718e316ea182bf1f32b687",
       "status" : "passed",
       "time" : {
@@ -26,7 +26,7 @@
     "name" : "Check the Page Navigation",
     "children" : [ {
       "name" : "Verify page title",
-      "uid" : "7dacb01f303af77d",
+      "uid" : "cafc6189d13be57c",
       "parentUid" : "11e7d2fa0aee67d73b002e4577273a2b",
       "status" : "passed",
       "time" : {
@@ -43,5 +43,64 @@
       "parameters" : [ ]
     } ],
     "uid" : "11e7d2fa0aee67d73b002e4577273a2b"
+  }, {
+    "name" : "Automation Sample BDD testcase",
+    "children" : [ {
+      "name" : "Automation Sample BDD testcase",
+      "uid" : "bfde2d09af28ad5c",
+      "parentUid" : "ddb4c4efc03887138aeedf1d8335fd4f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1646935636598,
+        "stop" : 1646935636907,
+        "duration" : 309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ddb4c4efc03887138aeedf1d8335fd4f"
+  }, {
+    "name" : "User login",
+    "children" : [ {
+      "name" : "Successful login attempt",
+      "uid" : "6bfb54c8674a32e5",
+      "parentUid" : "a7daf62c4c3e6c1327a34d3eed3981f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646935641229,
+        "stop" : 1646935643808,
+        "duration" : 2579
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unsuccessful login attempt",
+      "uid" : "5e0017976fa34914",
+      "parentUid" : "a7daf62c4c3e6c1327a34d3eed3981f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646935643808,
+        "stop" : 1646935645120,
+        "duration" : 1312
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a7daf62c4c3e6c1327a34d3eed3981f9"
   } ]
 }

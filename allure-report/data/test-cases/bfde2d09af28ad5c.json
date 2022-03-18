@@ -1,0 +1,56 @@
+{
+  "uid" : "bfde2d09af28ad5c",
+  "name" : "Automation Sample BDD testcase",
+  "fullName" : "Automation Sample BDD testcase.Automation Sample BDD testcase",
+  "historyId" : "dba6af5b62768c6682267c2074d6886a",
+  "time" : {
+    "start" : 1646935636598,
+    "stop" : 1646935636907,
+    "duration" : 309
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step implementation missing for: I navigate site",
+  "statusTrace" : "Error: Step implementation missing for: I navigate site\n                    at Context.resolveAndRunStepDefinition (http://sonarqube-elb-dev-322592263.us-east-1.elb.amazonaws.com:8081/__cypress/tests?p=cypress\\integration\\features\\1_PSP-14823.feature:12629:11)\n                    at Context.eval (http://sonarqube-elb-dev-322592263.us-east-1.elb.amazonaws.com:8081/__cypress/tests?p=cypress\\integration\\features\\1_PSP-14823.feature:11944:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Automation Sample BDD testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Sample BDD testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Automation Sample BDD testcase"
+  }, {
+    "name" : "package",
+    "value" : "Automation Sample BDD testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bfde2d09af28ad5c.json",
+  "parameterValues" : [ ]
+}

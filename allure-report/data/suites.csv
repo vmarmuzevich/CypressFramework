@@ -1,3 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 10 12:07:21 CST 2022","Thu Mar 10 12:07:23 CST 2022","2579","","User login","","User login","Successful login attempt","Successful login attempt",""
+"passed","Thu Mar 10 12:07:23 CST 2022","Thu Mar 10 12:07:25 CST 2022","1312","","User login","","User login","unsuccessful login attempt","unsuccessful login attempt",""
+"broken","Thu Mar 10 12:07:16 CST 2022","Thu Mar 10 12:07:16 CST 2022","309","","Automation Sample BDD testcase","","Automation Sample BDD testcase","Automation Sample BDD testcase","Automation Sample BDD testcase",""
 "passed","Thu Feb 24 06:32:28 CST 2022","Thu Feb 24 06:32:29 CST 2022","1064","","Check the Page Navigation","","Check the Page Navigation","Verify page title","Verify page title",""
 "passed","Thu Feb 24 06:32:21 CST 2022","Thu Feb 24 06:32:24 CST 2022","2804","","search case","","search case","search","search",""

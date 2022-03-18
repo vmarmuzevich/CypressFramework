@@ -1,0 +1,50 @@
+{
+  "uid" : "c5c5fefd42457b8",
+  "name" : "search",
+  "fullName" : "search case.search",
+  "historyId" : "328b01047d6b48c73fe1f3b5a7217cb",
+  "time" : {
+    "start" : 1645705941385,
+    "stop" : 1645705944189,
+    "duration" : 2804
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "search case"
+  }, {
+    "name" : "testClass",
+    "value" : "search case"
+  }, {
+    "name" : "testMethod",
+    "value" : "search"
+  }, {
+    "name" : "package",
+    "value" : "search case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5c5fefd42457b8.json",
+  "parameterValues" : [ ]
+}

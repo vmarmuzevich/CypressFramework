@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646935636591' stop='1646935636930'>
+    <name>Automation Sample BDD testcase</name>
+    <title>Automation Sample BDD testcase</title>
+    <test-cases>
+        <test-case start='1646935636598' status='broken' stop='1646935636907'>
+            <name>Automation Sample BDD testcase</name>
+            <title>Automation Sample BDD testcase</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step implementation missing for: I navigate site</message>
+                <stack-trace>Error: Step implementation missing for: I navigate site
+                    at Context.resolveAndRunStepDefinition (http://sonarqube-elb-dev-322592263.us-east-1.elb.amazonaws.com:8081/__cypress/tests?p=cypress\integration\features\1_PSP-14823.feature:12629:11)
+                    at Context.eval (http://sonarqube-elb-dev-322592263.us-east-1.elb.amazonaws.com:8081/__cypress/tests?p=cypress\integration\features\1_PSP-14823.feature:11944:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

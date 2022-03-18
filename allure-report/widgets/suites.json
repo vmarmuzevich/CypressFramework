@@ -1,6 +1,28 @@
 {
-  "total" : 2,
+  "total" : 4,
   "items" : [ {
+    "uid" : "ddb4c4efc03887138aeedf1d8335fd4f",
+    "name" : "Automation Sample BDD testcase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a7daf62c4c3e6c1327a34d3eed3981f9",
+    "name" : "User login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "542e8b4898718e316ea182bf1f32b687",
     "name" : "search case",
     "statistic" : {

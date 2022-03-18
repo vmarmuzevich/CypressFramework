@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Step implementation missing for: I navigate site",
+      "children" : [ {
+        "name" : "Automation Sample BDD testcase",
+        "uid" : "bfde2d09af28ad5c",
+        "parentUid" : "d2734c4de883f87106344a9ada9484a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646935636598,
+          "stop" : 1646935636907,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2734c4de883f87106344a9ada9484a7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

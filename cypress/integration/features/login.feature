@@ -4,7 +4,7 @@ As a user I want to log in
 Background: User is already on the login page
 Given User is on the login page
 
-@first
+@focus
 Scenario: Successful login attempt
 When User enters login 'admin' 
 And User enters password 'iDocket.123'

@@ -1,12 +1,12 @@
 {
-  "uid" : "675ddd0d95b7b058",
-  "name" : "search",
-  "fullName" : "search case.search",
-  "historyId" : "328b01047d6b48c73fe1f3b5a7217cb",
+  "uid" : "6bfb54c8674a32e5",
+  "name" : "Successful login attempt",
+  "fullName" : "User login.Successful login attempt",
+  "historyId" : "d0ecb5dd9e86cd62186292954e469a30",
   "time" : {
-    "start" : 1645705941385,
-    "stop" : 1645705944189,
-    "duration" : 2804
+    "start" : 1646935641229,
+    "stop" : 1646935643808,
+    "duration" : 2579
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,16 +21,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "search case"
+    "value" : "User login"
   }, {
     "name" : "testClass",
-    "value" : "search case"
+    "value" : "User login"
   }, {
     "name" : "testMethod",
-    "value" : "search"
+    "value" : "Successful login attempt"
   }, {
     "name" : "package",
-    "value" : "search case"
+    "value" : "User login"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "675ddd0d95b7b058.json",
+  "source" : "6bfb54c8674a32e5.json",
   "parameterValues" : [ ]
 }
