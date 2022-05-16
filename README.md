@@ -36,6 +36,5 @@ To generate reports, after running the features, run the following command.
 ```bash
 node report.js
 
-for any questiona please contact slava.marmuzevich@idocket.com
 ```
 
